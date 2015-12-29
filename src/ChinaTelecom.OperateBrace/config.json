@@ -1,0 +1,36 @@
+﻿{
+  "Settings": {
+    "DefaultLon": 126.617628,
+    "DefaultLat": 45.77498,
+    "DefaultZoom": 15,
+    "Authorization": "道里",
+    "Threshold": {
+      "Customer": {
+        "Yellow": 10,
+        "Cyan": 30
+      },
+      "BusinessHall": {
+        "Yellow": 10,
+        "Cyan": 30
+      }
+    }
+  },
+  "BMap": {
+    "ApplicationKey": "NXEnERYLgAVs3WYl3jd0NCKR",
+    "City": "哈尔滨市"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "Mode": "PostgreSQL",
+      "ConnectionString": "User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=chinatelecom;"
+    },
+    "SQLiteConnection": {
+      "Mode": "SQLite",
+      "ConnectionString": "Data source={appRoot}/chinatelecom.db"
+    },
+    "PostgreSQLConnection": {
+      "Mode": "PostgreSQL",
+      "ConnectionString": "User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=chinatelecom;"
+    }
+  }
+}
